@@ -1,0 +1,78 @@
+/* CSS Formatting Document */
+
+/* Overall Page Formatting */
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+	border: #000000 solid ;
+	margin: 15px;
+}
+p{
+    padding:.5em;
+}
+
+h1, h2, h3{    
+	padding-bottom:.5em;
+}
+ul {
+	padding-left: 1.5em;
+	padding-bottom: .5em;
+}
+
+ol {
+	padding-left: 1.5em;
+	padding-bottom: .5em;
+}
+
+a {
+	color: #084808;
+}
+a:visited {
+	color: #10a7a5;
+}	
+a:hover {
+	color:#CC6600 ;
+}
+
+dt {
+	size: 1.1em;
+	font-weight: bold;
+	color: orangered;
+	margin: 5px;
+}
+
+dd {
+margin-left: 50px;	
+padding-bottom: 1em;
+}
+/* Header Formatting */
+header {
+height: 99px;
+padding-left: 250px;
+padding-top: 10px;
+margin-left: 10px;
+margin-top: 10px;
+background-image: url(../_images/przlogo.gif);
+background-position: top left;
+background-repeat: no-repeat;
+}
+header h1, h2{
+	font-family: garamond, serif;
+}
+header h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+h2{
+	font-size: 1.6em;
+	font-weight: italic;
+	text-align: center;
+}
+/* Navigation Formatting */
+
+/* Main Section Formatting */
+main h1 {
+	font-size: 1.6em;
+}	
+/* Footer Formatting */
